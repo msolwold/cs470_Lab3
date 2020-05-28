@@ -6,7 +6,7 @@ This README is for a program that uses a user-specified number of threads to sor
 
 The number of threads, M, are provided via user input and the number of integers to sort, N, are provided via command line argument.
 
-For every active thread, it generates a randomly selected (i, j) pair where $i <= j <= N$.
+For every active thread, it generates a randomly selected (i, j) pair where i <= j <= N.
 That thread will then attempt to retrieve the values from index i to index j. If there is a thread that is currently processing the values from index i to index j, the thread will generate a new (i, j) pair as to not conflict with the work of the first thread. 
 
 Once the thread has an (i,j) pair that is not conflicting, it will randomly select a sorting algorithm to sort the values. The possible sorting algorithms are listed below. Once sorted, the thread will write the values back into the file in the same location that it retrieved them from.
