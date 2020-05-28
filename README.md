@@ -34,7 +34,7 @@ The results will be saved in a text file named "randomnumbers.txt".
 This program uses QuickSort, Insertion Sort, and Bubble Sort. All three of these algorithms were implemented based on code from GeeksForGeeks.
 
 * Quick Sort: https://www.geeksforgeeks.org/quick-sort/
-* Insertion Sort: \\url\{https://www.geeksforgeeks.org/insertion-sort/
+* Insertion Sort: https://www.geeksforgeeks.org/insertion-sort/
 * Bubble Sort: https://www.geeksforgeeks.org/bubble-sort/
 
 ## Mutex Locked Portions of the program
