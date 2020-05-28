@@ -53,7 +53,7 @@ Initially, the lab required region locking of a file. It was recommended that we
 
 After extensive research into fcntl(), it was discovered that it had not been created with threads in mind. The article linked below discusses this.
 
-{https://www.samba.org/samba/news/articles/low_point/tale_two_stds_os2.html}
+https://www.samba.org/samba/news/articles/low_point/tale_two_stds_os2.html
 
 There are macros that avoid the issues described in the article, but they were created under the GNU Project and only available to GNU systems.
 
