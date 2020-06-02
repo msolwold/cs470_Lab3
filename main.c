@@ -277,7 +277,7 @@ void printFile()
     {
         printf("%d, ", allNums[i]);
     }
-    printf("%d]\n", allNums[num_values - 2]);
+    printf("%d]\n", allNums[num_values - 1]);
 
     fclose(file);
 }
